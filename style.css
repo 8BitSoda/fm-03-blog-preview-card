@@ -1,0 +1,83 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree, consolas;
+}
+
+
+@font-face {
+    font-family: Figtree;
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
+.card {
+    max-width: 340px;
+    padding: 20px;
+    border-radius: 16px;
+    margin-top: 4rem;
+
+    background-color: white;
+    border: 2px solid;
+    box-shadow: 12px 12px;
+}
+
+.card h2 {
+    font-weight: 800;
+}
+
+.card h2:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.tag {
+    font-weight: 800;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+
+    background-color: hsl(47, 88%, 63%);
+}
+
+.date {
+    font-weight: 600;
+}
+
+.description {
+    color: hsl(0, 0%, 50%);
+}
+
+.banner {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+
+.author img {
+    width: 36px;
+    padding-right: 12px;
+}
+
+.author p:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
